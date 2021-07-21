@@ -12,8 +12,79 @@
 }
 
 .overview{
- background-color: white;
- border-top-left-radius: 50px;
- border-top-right-radius: 50px;
- height: 500px;
+  background-color: white;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  height: 500px;
+  padding: 50px 0 ;
+  color: black;
+}
+
+.index{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.index-sub{
+  font-size: 20px;
+  text-align: center;
+}
+
+.border{
+  border-top: orange solid 1px;
+  width: 500px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.service{
+  display: flex;
+  justify-content: space-between;
+  overflow: scroll;
+}
+
+.service-menu{
+  margin: 0 30px;
+}
+
+.mix-img{
+  background-image: url("mix.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+}
+
+.edit-img{
+  background-image: url("edit.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+}
+
+.support-img{
+  background-image: url("support.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+}
+
+.service-title{
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  margin: 20px;
+}
+
+.service-text{
+  font-size: 20px;
+  margin: auto;
+  width: 250px;
 }
