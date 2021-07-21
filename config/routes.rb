@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  root to: "main#index"
+  get 'info',  to: 'main#info'
+  get 'pricelist',  to: 'main#pricelist'
+  get 'contact',  to: 'main#contact'
 end
