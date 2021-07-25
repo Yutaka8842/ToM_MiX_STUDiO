@@ -1,11 +1,11 @@
 <div class="header">
-  <div class="title">ToMmi's Mix Studio</div>
+  <div class="title"><%= link_to "ToMmi's Mix Studio", root_path %></div>
   
   <ul class="main-menu">
-    <div class="twitter-logo-head"></div>
-    <li>Top</li>
-    <li>Info</li>
-    <li>Pricelist</li>
-    <li>Contact</li>
+    <%= link_to "", root_path , class:"twitter-logo-head"%>
+    <li><%= link_to "Top", root_path %></li>
+    <li><%= link_to "Info", info_path %></li>
+    <li><%= link_to "Pricelist", pricelist_path %></li>
+    <li><%= link_to "Contact", contact_path %></li>
   </ul>
 </div>
