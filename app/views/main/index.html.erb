@@ -1,13 +1,4 @@
-<div class="header">
-  <div class="title">ToM_MiX_STUDiO</div>
-  <ul class="main-menu">
-    <li>Top</li>
-    <li>Info</li>
-    <li>Pricelist</li>
-    <li>Contact</li>
-  </ul>
-</div>
-
+<%= render partial: 'header'%>
 <div class="body">
   <div class="top-message">Best sound for all artists</div>
   <div class="overview">
@@ -31,14 +22,9 @@
         <div class="service-text">自身で録音をしたい方の『SUPPORT』録音の仕方が分からない方に環境にあった録音時の注意やコツなどをサポートします。</div>
       </div>
     </div>
+    <div class="pricelist-btn-container">
+    <%= link_to "料金一覧", pricelist_path, class: "pricelist-btn" %>
+    </div>
   </div>
 </div>
-
-<div class="footer">
-  <ul class="foot-menu">
-    <li>Top</li>
-    <li>Info</li>
-    <li>Pricelist</li>
-    <li>Contact</li>
-  </ul>
-</div>
+<%= render partial: 'footer'%>
