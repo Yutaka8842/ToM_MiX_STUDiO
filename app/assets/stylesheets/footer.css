@@ -5,8 +5,20 @@
 }
 
 .foot-menu{
-  display: flex;
   font-size: 20px;
+  display: flex;
   justify-content: space-around;
-  padding-top: 30px;
+}
+
+.foot-menu li{
+  margin-top: 30px;
+}
+
+.twitter-logo-foot{
+  height: 40px;
+  width: 40px;
+  background-image: url("twitter-logo-white.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 22px;
 }

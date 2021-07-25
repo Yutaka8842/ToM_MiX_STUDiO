@@ -14,7 +14,7 @@
 .overview{
   background-color: white;
   border-radius: 50px;
-  height: 700px;
+  height: 100%;
   padding: 50px 0 ;
   color: black;
 }
@@ -33,14 +33,15 @@
 
 .border{
   border-top: orange solid 1px;
-  width: 500px;
+  width: 400px;
   margin: auto;
   padding-bottom: 50px;
 }
 
 .service{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
   overflow: scroll;
 }
 
@@ -87,8 +88,10 @@
 
 .service-text{
   font-size: 20px;
+  font-weight: 300;
   margin: auto;
   width: 250px;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .pricelist-btn-container{
@@ -98,12 +101,12 @@
 
 .pricelist-btn{
   font-size: 25px;
+  font-weight: 300;
   width: 200px;
   padding: 10px;
   background-color: orange;
   text-align: center;
   border-radius: 5px;
-
-  
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
