@@ -1,8 +1,8 @@
 class MainController < ApplicationController
-  def index
+  def top
   end
 
-  def info
+  def about
   end
 
   def pricelist

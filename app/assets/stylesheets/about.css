@@ -1,0 +1,23 @@
+.profile{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.profile-img{
+  height: 300px;
+  width: 300px;
+  background-image: url("profile-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.profile-text{
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+  width: 500px;
+}
