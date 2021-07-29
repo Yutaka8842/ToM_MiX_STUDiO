@@ -13,11 +13,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
+  margin-bottom: 30px;
 }
 
 .profile-text{
   font-size: 25px;
   font-weight: 300;
   text-align: center;
-  width: 500px;
+  width: 400px;
+  font-family: 'Noto Sans JP', sans-serif;
 }
