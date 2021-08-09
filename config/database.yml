@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: ToM_MiX_STUDiO_production
-  username: ToM_MiX_STUDiO
-  password: <%= ENV['TOM_MIX_STUDIO_DATABASE_PASSWORD'] %>
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
