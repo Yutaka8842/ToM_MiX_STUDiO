@@ -15,7 +15,7 @@
 }
 
 .mix-img{
-  background-image: url("mix.png");
+  background-image: image-url("mix.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100px;
@@ -24,7 +24,7 @@
 }
 
 .edit-img{
-  background-image: url("edit.png");
+  background-image: image-url("edit.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100px;
@@ -33,7 +33,7 @@
 }
 
 .support-img{
-  background-image: url("support.png");
+  background-image: image-url("support.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100px;
